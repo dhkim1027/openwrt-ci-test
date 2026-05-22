@@ -1,0 +1,11 @@
+# 빌드 산출물
+build_dir/
+staging_dir/
+bin/
+dl/
+.config
+
+# 에디터
+*.swp
+.vscode/
+.idea/
