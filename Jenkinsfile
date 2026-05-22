@@ -19,8 +19,8 @@ pipeline {
 
     environment {
         // 호스트 측 공유 캐시 (실제 환경에서는 영속 디스크)
-        DL_CACHE     = "/var/jenkins_cache/dl"
-        CCACHE_DIR   = "/var/jenkins_cache/ccache"
+        DL_CACHE     = "/var/jenkins_home/dl"
+        CCACHE_DIR   = "/var/jenkins_home/ccache"
 
         // 빌더 이미지 이름
         IMAGE_NAME   = "openwrt-ci-test-builder"
